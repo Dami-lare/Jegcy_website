@@ -1,0 +1,67 @@
+.column_attr a:hover, .list_item.lists_3 a:hover {
+	text-decoration: none;
+}
+
+.column_attr a p{
+	color: #ffffff;
+}
+
+.list_item.lists_3 a p{
+	color: #8d8e90;
+}
+
+.column_attr a:hover p{
+	color: #ffffff;
+}
+
+.column_attr a p.read-more {
+	color: #ffffff;
+}
+
+.column_attr a:hover p.read-more {
+	color: #ebdf18;
+}
+.text-center {
+	text-align:center;
+}
+
+
+#gallery-1 {
+    margin: auto;
+}
+
+#gallery-1 .gallery-item {
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+    width: 25%;
+}
+
+#gallery-1
+img {
+    border: 2px solid #cfcfcf;
+}
+
+#gallery-1 .gallery-caption {
+    margin-left: 0;
+}
+
+#gallery-2 {
+    margin: auto;
+}
+
+#gallery-2 .gallery-item {
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+    width: 33%;
+}
+
+#gallery-2
+img {
+    border: 2px solid #cfcfcf;
+}
+
+#gallery-2 .gallery-caption {
+    margin-left: 0;
+}

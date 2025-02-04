@@ -1,0 +1,22 @@
+
+header{
+    display: inline-flex;
+    background-color: rgba(94, 82, 82, 0.486);
+    
+}
+
+
+.logo {
+    height: 50px;
+}
+
+.navigation {
+    display:flexbox;
+    
+    height: 50px;
+    
+}
+
+footer {
+    background-color: aqua;
+}

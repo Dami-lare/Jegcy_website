@@ -1,0 +1,259 @@
+
+
+.accordion{
+     padding-bottom: 30px;
+}
+
+.clients{
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+
+section .img-fluid {
+    object-fit: cover;
+    display: inline-block;
+}
+
+section .row-cols-2 .col {
+    padding: 10px;
+}
+
+
+footer{
+    margin-top: 3px;
+}
+.footer {
+    background-color: #222;
+    color: #ccc;
+}
+.footer a {
+    color: #ccc;
+    transition: color 0.3s;
+}
+.footer a:hover {
+    color: #fff;
+}
+
+.ffooter{
+    background-color: #222;
+    color: #ccc;
+    margin-top: 30px;
+    max-height: fit-content;
+}
+
+.ffooter_img{
+    max-height: fit-content;
+}
+
+.footer_line {
+    color: #d36969;
+    margin-top: 1px;
+    
+}
+
+.about-hero {
+    position: relative;
+    height: 400px; /* Adjust height as needed */
+    background: url('your-background-image.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.about-hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(19, 18, 18);
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-hero h1 {
+        font-size: 2rem;
+    }
+}
+
+.certifications {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.certifications h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.certifications-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+}
+
+.certification-image {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    opacity: 0.6;
+}
+
+.certification-image img {
+    width: 200px; /* Adjust width */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    border-radius: 10px;
+}
+
+.certification-image.protruding {
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+/* For Responsive Design */
+@media (max-width: 768px) {
+    .certification-image img {
+        width: 150px;
+    }
+}
+
+.clients-gallery img {
+    border: 2px solid #ccc; /* Optional border */
+    margin-bottom: 0.5rem; /* Adds spacing between images */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .clients-gallery img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .clients-gallery .blue-box {
+    background-color: #fa5407ef; /* Blue background */
+    color: white; /* White text */
+    font-size: 1.4rem; /* Larger text size */
+    padding: 0.5rem; /* Adds spacing around text */
+    text-align: center; /* Centers text */
+    width: 95%; /* Reduce the width */
+    margin:  auto; /* Center within the column */
+    border-radius: 5px; /* Slightly rounded edges */
+  }
+  
+  .meet-the-team img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .meet-the-team hr {
+    border: 1px solid #640606;
+    margin: 0.5rem 0;
+  }
+
+  
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .dark-line {
+    border: 1px solid #333;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .contact-details-column {
+    background-color: #f1f1f1; /* Light gray background */
+    border-radius: 10px;
+    
+  }
+  
+  .contact-icon {
+    font-size: 26px;
+    color: #007bff; /* Blue icon color */
+    display: flex;
+    margin-left: 20px;
+  }
+  
+  .round_border {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Shortened for clarity */
+    background-color: #007bff;
+    color: #fff;
+    font-size: 24px;
+    line-height: 1; /* Ensures no extra vertical space */
+    text-align: center; /* Aligns text inside */
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  
+  .round_border:hover {
+    background-color: #0056b3;
+  }
+  
+  .contact-form-column {
+    background-color: #fff; /* White background */
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1); /* Shadow box effect */
+  }
+  
+  .contact-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form .btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  .Fire_devices img {
+    border: 2px solid #ccc; /* Optional border */
+    margin-bottom: 0.5rem; /* Adds spacing between images */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .Fire_devices img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Custom styles for buttons when active */
+.filter-btn:focus, .filter-btn.active {
+  border-color: black !important; /* Change the border color to black */
+  color: #ffffff !important; /* Ensure text color is black */
+  background-color: rgb(51, 59, 97) !important; /* Keep the background white */
+}
+
+/* Default outline buttons to have black border */
+.btn-outline-primary {
+  border-color: black !important;
+  color: black !important;
+}
+
+
